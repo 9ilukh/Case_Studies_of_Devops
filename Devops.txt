@@ -1,0 +1,30 @@
+Docusign
+Docusign’s development has always been Agile. But taking the next step into DevOps processes was not so easy. Due to the nature of their business (contracts and signatures), things like continuous integration and delivery are undoubtedly a serious challenge. They live and die by transactions, not the money kind, but the exchange of signatures and approvals. If anything were to go wrong and an approval was misattributed, for example, this would be a serious problem. So to support modern development speed, they leverage a very cool tool called an application mock — in this case, a mock for their internal API. The tool offers a mock endpoint and delivers mock responses. They are able to combine this with incident management, and before release, test the application with simulations that are very close to real-life exchanges. View Slideshare »
+
+Forter
+Similar to Docusign, Forter’s application is dependent on fast-paced and sensitive transactions. Forter put a large emphasis on self-healing issues driven by strong incident management. They’ve built a nice architecture for handling all issues. They have a filtering process to identify common issues to attempt to resolve them automatically, or for later reference to address and incorporate into their system. This focus on not just addressing issues but preventing them in the future is what will allow them to advance their delivery chain. View Slideshare »
+
+Turnitin
+Turnitin is a platform to help improve students’ writing. (I could have used that while in school.) I learned a lot from Samantha, a Database Manager at Turnitin, during her presentation on how monitoring is used to help with database performance in their application. I’m no DBA, but being able to identify normal and abnormal spikes, monitor backend response time, and react to abnormal spikes as quickly as possible is important for any application. View Slideshare »
+
+Gengo
+Gengo is a translation platform. It is used both by commercial end users and by developers for integration into their application. They have a similar point of view to Forter where they chose smart monitoring as a path, not only better production applications, but also to larger goals such as freeing up time on the team to innovate. In particular, due to the distributed nature of their API, issues found as the result of an update can be especially hard to spot. View Slideshare »
+
+ 
+
+What I really enjoy about the above four implementations is that they are not the DevOps unicorns, and they are not the poster children of DevOps (such as Netflix or Etsy), which makes their stories more pertinent to all applications.
+
+But let’s look at the two poster children as well:
+
+ 
+
+Etsy
+Etsy is a highly referenced practitioner of DevOps, as well as a contributor to the technology and tools available in the space. They reveal a top-down approach to DevOps adoption. The entire organization understood early on that long-term change would have to concentrate on culture, hiring approaches, motivational techniques, etc. But on the tactical side (infrastructure), they focused on cross-pollination of teams, an open-door policy, and visibility for everyone. View Slideshare »
+
+ 
+
+Netflix
+Even more than Etsy, Netflix is showcased as the DevOps dream. And there is no lack of examples demonstrating how their environment fires on all cylinders (and all the cool things they are doing). In their presentation, pay attention to the reference architectures and how they are making sure their Cassandra database does not go Boom! They spend quite a bit of effort on comprehensive database testing during the release process. Often backends are tested only after several releases, and under limited scenarios. View Slideshare » 
+
+ 
+
